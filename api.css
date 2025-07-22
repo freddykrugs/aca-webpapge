@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(13 49 28);
+}
+.opt{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+.spacing{
+    display: flex;
+    flex-direction: row;
+    width: 20vw;
+    height: 10vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.a{
+    text-decoration-line: none;
+    color: white;
+    width: 2.2vw;
+    height: 4.4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5vw;
+}
+.a:hover{
+    color: rgb(13 49 28);
+    background-color: white;
+    transition: 0.2s;
+}
+.pti{
+    font-size: 0.9em;
+}
+.main{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.two{
+    height: 50vh;
+    width: 60vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.uno{
+    height: 50vh;
+    width: 40vw;
+    display: flex;
+    border-radius: 1vw;
+    background-image: url(img/blaz-photo-zMRLZh40kms-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: greenyellow;}
+.dos{
+    height: 50vh;
+    width: 18vw;
+    display: flex;
+    border-radius: 1vw;
+    background-image: url(img/need\ for\ my\ photoshoot\ board\,\ credit\ where\ credit\ is\ due.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tres{
+    width: 59.2vw;
+    height: 28vh;
+    margin-top: 2vh;
+    margin-left: 0.3vw;
+    border-radius: 1vw;
+    background-image: url(img/download\ \(4\).jpeg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head{
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.writing{
+    width: 40vw;
+    height: 25vh;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.cap{
+    font-size: 1.5em;
+}
+h1{
+    font-size: 6em;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+p{
+    font-size: 0.9em;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3em;
+    cursor: pointer; 
+}
+.start{
+    width: 20vw;
+    height: 10vh;
+    border: 2px solid;
+    border-radius: 0.5vw;
+    border-color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration-line: none;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.1em;
+}
+.alternatives{
+    width: 10vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.alt{
+    width: 3.5vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration-line: none;
+}
+.start:hover{
+    color: rgb(75, 25, 76);
+    background-color: white;
+    transition: 0.2s;
+}
+.alt:hover{
+    border: 1px solid white;
+    border-radius: 3.5em;
+}
+.name{
+    width: 4vw;
+    height: 3vh;
+    border-radius: 1vw;
+    border-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.51);
+    margin-top: 15vh;
+    margin-left: 33vw;
+}
+.name   h1{
+    font-size: 0.7em;
+}
+.name:hover{
+    border: 1px solid white;
+    border-radius: 0.5vx;
+    transition: 0.3s;
+}
+.name h1:active{
+    font-size: 0.75em;
+}
+
+
+
+
+
+
+
